@@ -11,9 +11,9 @@
                     <label for="validationCustomUsername" class="form-label font-weight-bold">Tên danh mục</label>
                     <div class="input-group has-validation">
                         <input name="name" type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                        <!-- <div class="invalid-feedback">
+                        <div class="invalid-feedback">
                             Không được để trống
-                        </div> -->
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -21,9 +21,9 @@
                     <div class="custom-file mb-3">
                         <input name="img" type="file" class="custom-file-input" id="validatedCustomFile" required>
                         <label class="custom-file-label" for="validatedCustomFile">Chọn tệp...</label>
-                        <!-- <div class="invalid-feedback">
+                        <div class="invalid-feedback">
                             Không được để trống
-                        </div> -->
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 mt-1">
