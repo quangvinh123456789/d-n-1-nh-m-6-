@@ -45,6 +45,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
                     $thongbao = "Cap nhap danh mục thanh cong";
                 }
                 include "danhmuc/update_dm.php";
+                break;
             }
             }
     }
