@@ -9,7 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ADMIN IWATCH</title>
     <link rel="icon" href="./img/admin-logo.png">
 
     <!-- Custom fonts for this template-->
