@@ -8,6 +8,7 @@
 <body>
     <div>
         <h1>chao mn</h1>
+        <h2><?php echo "chao mn"; ?></h2>
     </div>
 </body>
 </html>
