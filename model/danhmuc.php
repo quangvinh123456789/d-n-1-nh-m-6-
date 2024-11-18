@@ -13,9 +13,9 @@ function loadAll_danhmuc($key = "", $iddm = 0)
 
 
 //-----------ADMIN---------------//
-function insert_dm($name, $img)
+function insert_dm($name)
 {
-    $sql = "INSERT INTO `danhmuc`(`name`, `img`) VALUES ('$name','$img')";
+    $sql = "INSERT INTO `danhmuc`(`name`) VALUES ('$name')";
     pdo_execute($sql);
 }
 
@@ -26,17 +26,9 @@ function delete_dm($id)
     pdo_execute($sql);
 }
 
-function update_dm($id, $name, $img)
+function update_dm($id, $name)
 {
-    $sql = "";
-    if ($img != "") {
-        $sql .= "UPDATE `danhmuc` SET 
-        `name`='$name',
-        `img`='$img' WHERE `id`='$id'";
-    } else {
-        $sql .= "UPDATE `danhmuc` SET 
-        `name`='$name' WHERE `id`='$id'";
-    }
+   $sql = " UPDATE `danhmuc` SET `id`='$id',`name`='$name' WHERE 1";
     pdo_execute($sql);
 }
 function load_sp_cung_loai($idsp, $iddm)
