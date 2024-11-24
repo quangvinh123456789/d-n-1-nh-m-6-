@@ -13,7 +13,6 @@
                         <tr>
                             <th class="fw-bold text-secondary">Số thứ tự</th>
                             <th class="fw-bold text-secondary">Tên danh mục</th>
-                            <th class="fw-bold text-secondary">Hình ảnh</th>
                             <th class="fw-bold text-secondary">Quản lý</th>
                         </tr>
                     </thead>
@@ -22,9 +21,6 @@
                         <tr>
                             <td><?= $key + 1?></td>
                             <td><?= $value['name']?></td>
-                            <td>
-                                <img width="100px" height="50px" src="../uploads/img_dm/<?= $value['img']?>" alt="123">
-                            </td>
                             <td>
                                 <a type="button" class="btn btn-warning" href="?act=update_dm&id=<?= $value['id']?>"><i class="fa-solid fa-pen-to-square"></i></a>
                                 <a type="button" class="btn btn-danger" href="?act=delete_dm&id=<?= $value['id']?>" onclick="return confirm('Bạn có muốn xóa <?= $value['name'] ?>')"><i class="fa-solid fa-trash-can"></i></a>

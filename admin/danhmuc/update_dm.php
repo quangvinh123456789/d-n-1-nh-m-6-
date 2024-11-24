@@ -31,19 +31,6 @@ if (is_array($loadone_dm)) {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <label for="validationCustomUsername" class="form-label font-weight-bold">Hình ảnh</label>
-                    <div class="card">
-                        <img src="../uploads/img_dm/<?= $loadone_dm[0]['img'] ?>" class="card-img-top" alt="">
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <label for="validationCustomUsername" class="form-label font-weight-bold">Tải lên</label>
-                    <div class="custom-file mb-3">
-                        <input type="file" name="img" class="custom-file-input">
-                        <label class="custom-file-label" for="validatedCustomFile">Chọn tệp...</label>
-                    </div>
-                </div>  
                 <div class="col-12">
                     <input class="btn btn-success " type="submit" name="submit" value="Thực hiện"></input>
                     <button type="reset" class="btn btn-outline-secondary">Nhập lại</button>
